@@ -664,7 +664,7 @@ func GeneratePermission(modelName string, modelTitle string, userId int) error {
 	// 创建菜单
 	var entity model.Menu
 	entity.Title = modelTitle
-	entity.Icon = "layui-icon-component"
+	entity.Icon = "CodeSandboxOutlined"
 	entity.Path = "/tool/example/" + modelName
 	entity.Component = entity.Path
 	entity.ParentId = 164

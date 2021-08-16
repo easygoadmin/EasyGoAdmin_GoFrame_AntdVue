@@ -26,24 +26,24 @@ type LoginLogDao struct {
 
 // LoginLogColumns defines and stores column names for table sys_login_log.
 type LoginLogColumns struct {
-	Id            string // 主键ID                                             
-    Username      string // 操作账号                                           
-    Method        string // 操作方法                                           
-    OperUrl       string // 请求URL                                            
-    OperIp        string // 主机地址                                           
-    OperLocation  string // 操作地点                                           
-    Os            string // 操作系统                                           
-    RequestParam  string // 请求参数                                           
-    Browser       string // 浏览器                                             
-    Result        string // 返回参数                                           
-    Status        string // 操作状态：0操作成功 1操作失败                      
-    Type          string // 操作类型：1登录成功 2登录失败 3注销成功 2注销失败  
-    UserAgent     string // 代理信息                                           
-    Note          string // 备注                                               
-    CreateUser    string // 添加人                                             
-    CreateTime    string // 操作时间                                           
-    UpdateUser    string // 更新人                                             
-    UpdateTime    string // 更新时间                                           
+	Id            string // 主键ID                                              
+    Username      string // 操作账号                                            
+    Method        string // 操作方法                                            
+    OperUrl       string // 请求URL                                             
+    OperIp        string // 主机地址                                            
+    OperLocation  string // 操作地点                                            
+    Os            string // 操作系统                                            
+    RequestParam  string // 请求参数                                            
+    Browser       string // 浏览器                                              
+    Result        string // 返回参数                                            
+    Status        string // 操作状态：0操作成功 1操作失败                       
+    Type          string // 操作类型：1登录成功 2登录失败 3退出登录 4刷新TOKEN  
+    UserAgent     string // 代理信息                                            
+    Note          string // 备注                                                
+    CreateUser    string // 添加人                                              
+    CreateTime    string // 操作时间                                            
+    UpdateUser    string // 更新人                                              
+    UpdateTime    string // 更新时间                                            
     Mark          string // 有效标识
 }
 
