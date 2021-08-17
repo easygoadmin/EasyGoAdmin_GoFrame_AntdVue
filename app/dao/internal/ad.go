@@ -41,6 +41,7 @@ type AdColumns struct {
     ViewNum      string // 点击率                             
     Status       string // 状态：1在用 2停用                  
     Sort         string // 排序                               
+    Note         string // 备注                               
     CreateUser   string // 添加人                             
     CreateTime   string // 添加时间                           
     UpdateUser   string // 更新人                             
@@ -70,6 +71,7 @@ var (
             ViewNum:     "view_num",     
             Status:      "status",       
             Sort:        "sort",         
+            Note:        "note",         
             CreateUser:  "create_user",  
             CreateTime:  "create_time",  
             UpdateUser:  "update_user",  

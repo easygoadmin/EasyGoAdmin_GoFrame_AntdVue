@@ -36,6 +36,7 @@ type AdAddReq struct {
 	EndTime     *gtime.Time `p:"end_time"    v:"required#广告结束时间不能为空"`  // 结束时间
 	Status      int         `p:"status"      v:"required#请选择广告状态"`     // 状态：1在用 2停用
 	Sort        int         `p:"sort"        v:"required#排序号不能为空"`     // 排序
+	Note        string      `p:"note"`                                 // 备注
 }
 
 // 更新广告
@@ -54,6 +55,7 @@ type AdUpdateReq struct {
 	EndTime     *gtime.Time `p:"end_time"    v:"required#广告结束时间不能为空"`  // 结束时间
 	Status      int         `p:"status"      v:"required#请选择广告状态"`     // 状态：1在用 2停用
 	Sort        int         `p:"sort"        v:"required#排序号不能为空"`     // 排序
+	Note        string      `p:"note"`                                 // 备注
 }
 
 // 删除广告

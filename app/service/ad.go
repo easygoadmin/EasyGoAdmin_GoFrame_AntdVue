@@ -101,6 +101,7 @@ func (s *adService) Add(req *model.AdAddReq, userId int) (int64, error) {
 	entity.EndTime = req.EndTime
 	entity.Status = req.Status
 	entity.Sort = req.Sort
+	entity.Note = req.Note
 	entity.CreateUser = userId
 	entity.CreateTime = gtime.Now()
 	entity.Mark = 1
@@ -158,6 +159,7 @@ func (s *adService) Update(req *model.AdUpdateReq, userId int) (int64, error) {
 	info.EndTime = req.EndTime
 	info.Status = req.Status
 	info.Sort = req.Sort
+	info.Note = req.Note
 	info.UpdateUser = userId
 	info.UpdateTime = gtime.Now()
 
