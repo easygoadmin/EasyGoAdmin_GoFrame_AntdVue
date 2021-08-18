@@ -19,7 +19,7 @@ import (
 /**
  * 演示二-路由
  * @author 半城风雨
- * @since 2021/08/11
+ * @since 2021/08/18
  * @File : example2
  */
 func init() {
@@ -31,6 +31,8 @@ func init() {
 		group.POST("/add", controller.Example2.Add)
 		group.PUT("/update", controller.Example2.Update)
 		group.DELETE("/delete/:ids", controller.Example2.Delete)
+
 		group.PUT("/status", controller.Example2.Status)
+
 	})
 }
