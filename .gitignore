@@ -22,3 +22,4 @@ go.sum
 
 .svn
 avui/
+app/service/generate.go
