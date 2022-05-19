@@ -141,8 +141,6 @@ Iris+AntdVue前后端分离版 | 采用Iris、Vue、AntDesign等框架研发前�
 
 ![效果图](./public/uploads/demo/24.png)
 
-![效果图](./public/uploads/demo/25.png)
-
 ## ✨  特别鸣谢
 感谢[GoFrame](https://goframe.org/#all-updates)、[VueJs](https://cn.vuejs.org/)、[AntDesign](https://2x.antdv.com/docs/vue/introduce-cn/)等优秀开源项目。
 
